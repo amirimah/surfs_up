@@ -13,12 +13,16 @@ results = session.query(Measurement.prcp).\
     filter(extract('month', Measurement.date)==6).all()
 prc = list(np.ravel(results))
 prc_df = pd.DataFrame(prc)
-prc_df.describe()```   
-
-```  ```
+prc_df.describe()
+```
+The following table describes the summary for June precipitation.  
+![Image1](https://github.com/amirimah/surfs_up/blob/main/June_precipitation.png?raw=true)   
+The query for December precipitation is as follows:  
+```
 results = session.query(Measurement.prcp).\
     filter(extract('month', Measurement.date)==12).all()
 prc = list(np.ravel(results))
 prc_df = pd.DataFrame(prc)
 prc_df.describe()``` 
-
+```
+And the output of this query is shown below:  
