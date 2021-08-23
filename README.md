@@ -26,3 +26,4 @@ prc_df = pd.DataFrame(prc)
 prc_df.describe()``` 
 ```
 And the output of this query is shown below:  
+![Image2](https://github.com/amirimah/surfs_up/blob/main/December_precipitation.png?raw=true)
