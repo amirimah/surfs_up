@@ -16,7 +16,7 @@ prc_df = pd.DataFrame(prc)
 prc_df.describe()
 ```
 The following table describes the summary for June precipitation.  
-![Image1](https://github.com/amirimah/surfs_up/blob/main/June_precipitation.png?raw=true)   
+![Image1](https://github.com/amirimah/surfs_up/blob/main/screenshots/June_precipitation.png?raw=true)   
 The query for December precipitation is as follows:  
 ```
 results = session.query(Measurement.prcp).\
@@ -26,7 +26,7 @@ prc_df = pd.DataFrame(prc)
 prc_df.describe()``` 
 ```
 And the output of this query is shown below:  
-![Image2](https://github.com/amirimah/surfs_up/blob/main/December_precipitation.png?raw=true)
+![Image2](https://github.com/amirimah/surfs_up/blob/main/screenshots/December_precipitation.png?raw=true)
 
 ## 
 **Contact:**  
